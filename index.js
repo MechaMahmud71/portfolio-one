@@ -17,7 +17,7 @@ document.querySelector(".nav-ham-button").addEventListener("click", () => {
 
 
 
-console.log(screen.width);
+// console.log(screen.width);
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
