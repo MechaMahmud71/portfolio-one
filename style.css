@@ -802,9 +802,10 @@ footer .footer-text:hover {
 
 /* mobile devices */
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 	body {
 		font-size: 16px;
+		overflow-x: hidden;
 	}
 	.nav-left {
 		padding-left: 50px;
@@ -939,7 +940,7 @@ footer .footer-text:hover {
 
 /* tablets */
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 501px) and (max-width: 1024px) {
 	.nav-right {
 		display: none;
 	}
