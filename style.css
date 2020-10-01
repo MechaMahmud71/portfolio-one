@@ -86,6 +86,7 @@ body {
 	box-shadow: 0 10px 30px -10px var(--navy-shadow);
 	z-index: 15;
 }
+
 .transparent {
 	background-color: rgb(58, 53, 53, 0);
 }
@@ -127,6 +128,20 @@ body {
 }
 .link-name {
 	margin-left: -9px;
+}
+.resume-btn {
+	color: var(--orange-type);
+	background-color: transparent;
+	border: 1px solid var(--orange-type);
+	border-radius: 5px;
+	padding: 0.8rem 1rem;
+	font-size: 14px;
+	font-family: var(--font-mono);
+	line-height: 1;
+	text-decoration: none;
+	cursor: pointer;
+	transition: var(--transition);
+	/* margin-top: 25px; */
 }
 
 .home-video video {
@@ -242,9 +257,14 @@ body {
 	transition: var(--transition);
 	/* margin-top: 25px; */
 }
+
 .hero-contact-btn:hover {
 	background-color: var(--hero-btn-hover);
 }
+.resume-btn:hover {
+	background-color: var(--hero-btn-hover);
+}
+
 .nav-ham {
 	width: 45px;
 	height: 54px;
